@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+     <TextView
+            android:id="@+id/etiqueta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inserte un numero y su unidad de potencia:"
+            android:textStyle="bold" />
+
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="240dp"
+         android:layout_height="34dp"
+         android:layout_marginTop="16dp"
+         android:layout_x="254dp"
+         android:layout_y="32dp"
+         android:entries="@array/unidades" />
+
+     <EditText
+         android:id="@+id/valor"
+         android:layout_width="235dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:layout_x="-1dp"
+         android:layout_y="29dp"
+         android:ems="10"
+         android:inputType="number|numberDecimal" >
+
+         <requestFocus />
+     </EditText>
+
+     <RadioGroup
+         android:id="@+id/radio_grupo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="50dp"
+         android:layout_y="79dp" >
+
+         <RadioButton
+             android:id="@+id/opcion1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+             android:text="2 decimales"
+             android:textStyle="bold" />
+
+         <RadioButton
+             android:id="@+id/opcion2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="3 decimales"
+             android:textStyle="bold" />
+
+         <RadioButton
+             android:id="@+id/opcion3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="4 decimales"
+             android:textStyle="bold" />
+
+         <RadioButton
+             android:id="@+id/opcion4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="5 decimales"
+             android:textStyle="bold" />
+     </RadioGroup>
+
+     <Button
+         android:id="@+id/boton1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="75dp"
+         android:layout_x="285dp"
+         android:layout_y="131dp"
+         android:onClick="mostrar"
+         android:text="Iniciar Conversión"
+         android:textStyle="bold" />
+     
+</AbsoluteLayout>

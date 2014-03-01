@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <resources>
+        <string name="caballo_vapor">CV: </string>
+        <string name="vatio">W: </string>
+        <string name="decibelio_vatio">DbW: </string>
+        <string name="decibelio_mw">Dbm:</string>
+        <string name="milivatio">Mw:</string>
+        <string name="caballo_potencia">HP:</string>
+        <string name="kcalhora">KCal/h:</string>
+        <string name="kjulioshora">KJ/h:</string>
+        <string name="comp_caballo_vapor">Caballo de Vapor:</string>
+        <string name="comp_vatio">Vatios:</string>
+        <string name="comp_decibelio_vatio">Decibelios referidos a vatios:</string>
+        <string name="comp_decibelio_mw">Decibelios referidos a 1mW</string>
+        <string name="comp_milivatio">Mili Vatios:</string>
+        <string name="comp_caballo_potencia">Caballo de Potencia:</string>
+        <string name="comp_kcalhora">Kilo Calorias por hora:</string>
+        <string name="comp_kjulioshora">Kilo Julios por hora:</string>
+    </resources>

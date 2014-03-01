@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Conversor de unidades</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Conversor de Unidades</string>
+    <string name="title_activity_resultados">Resultados de la conversión</string>
+
+</resources>
